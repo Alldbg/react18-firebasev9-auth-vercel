@@ -24,6 +24,7 @@ const Signup = () => {
 
   return (
     <>
+     <button onClick={methodDoesNotExist}>Test Sentry Bad Button</button>;
       <div className="p-4 box">
         <h2 className="mb-3">Firebase Auth Signup</h2>
         {error && <Alert variant="danger">{error}</Alert>}

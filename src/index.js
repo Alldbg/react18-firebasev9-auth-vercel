@@ -24,7 +24,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <button onClick={methodDoesNotExist}>Test Sentry Bad Button</button>;
+     
     </BrowserRouter>
   </React.StrictMode>
 );
